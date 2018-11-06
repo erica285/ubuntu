@@ -1,0 +1,26 @@
+echo "Comprimir arquivo?"
+
+read aula
+
+if test "s"
+
+then
+tar -cvzf random.gz random
+echo "Arquivo Compactado"
+
+fi
+
+else
+
+cp /home/erica/Documentos/aula/random -t /home/erica/Documentos/teste
+
+echo "Arquivo copiado"
+
+
+
+
+
+
+
+
+
